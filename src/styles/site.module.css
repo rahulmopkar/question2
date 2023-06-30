@@ -1,0 +1,56 @@
+body{
+}
+.sidebar{
+  position:fixed;
+  background-color: #eee;
+  height:100%;
+  width:100px;
+}
+.contacts{
+  font-size: 30pt;
+  margin-left: 100px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+}
+.example{
+  font-size: 30pt;
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+}
+.Header{
+  font-size: 50pt;
+  text-align: center;
+}
+.addressBox{
+  margin-left: 20px;
+}
+.outer{
+  margin-left: 120px;
+
+}
+Link {
+  text-decoration: none;
+}
+.sidebar img{
+  width:100px;
+  height:150px;
+}
+@media screen and (max-width: 800px) {
+.smaller-text { display: inline-block; }
+.larger-text { display: none; }
+.sidebar{
+    width: 30px;
+}
+.sidebar img{
+    display: none;
+}
+}
+@media screen and (max-width: 1400px) {
+.smaller-text { display: inline-block; }
+.larger-text { display: none; }
+.sidebar{
+    width: 60px;
+}
+}

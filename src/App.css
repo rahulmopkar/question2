@@ -1,7 +1,27 @@
-.App {
-  text-align: center;
+body{
 }
-
+.sidebar{
+  position:fixed;
+  background-color: #eee;
+  height:100%;
+  width:100px;
+}
+.App {
+  
+  color: white;
+  height: 100%;
+}
+.Header{
+  text-align: center;
+  font-size: 50pt;
+}
+.contacts{
+  font-size: 30pt;
+  margin-left: 100px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
